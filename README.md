@@ -25,3 +25,13 @@
            app development frameworks and languages, ensuring a seamless 
            and intuitive user experience.
 # Technology Stacks
+- HTML
+- SCSS / CSS
+- Typescript
+- Ionic Framework
+- Visual Studio Code
+# Team
+- Ma. Leabel Alas
+- Lyka Alessandra B. Magbuhos
+- Kristine Joy A. Ylagan
+
