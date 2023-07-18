@@ -1,5 +1,5 @@
-# MoodEase: Empowering Mental Wellbeing App
-# Project Description
+## MoodEase: Empowering Mental Wellbeing App
+## Project Description
            In today's fast-paced and demanding world, prioritizing mental 
            health and emotional well-being is more important than ever. 
            Recognizing the importance of mental health and the need for 
@@ -24,7 +24,7 @@
            applications. The development team will leverage modern mobile 
            app development frameworks and languages, ensuring a seamless 
            and intuitive user experience.
-# Technology Stacks
+## Technology Stacks
 - HTML
 - SCSS / CSS
 - Typescript
