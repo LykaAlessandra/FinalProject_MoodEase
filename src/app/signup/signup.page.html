@@ -1,0 +1,21 @@
+<!-- signup.page.html -->
+
+<ion-content>
+  <h2 class="signup-title">SIGN UP</h2>
+  <ion-list>
+    <ion-item>
+      <ion-label position="floating">Username</ion-label>
+      <ion-input type="email" [(ngModel)]="email"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Password</ion-label>
+      <ion-input type="password" [(ngModel)]="password"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <ion-button expand="half"  routerLink="/tabs/home">Sign Up</ion-button>
+
+  <div class="login-link">
+    Already have an account? <a routerLink="/login">Login</a>
+  </div>
+</ion-content>

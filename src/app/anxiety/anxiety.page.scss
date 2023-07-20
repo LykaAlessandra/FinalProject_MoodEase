@@ -1,0 +1,62 @@
+// styles.scss
+
+// Global styles if needed
+// ...
+
+// Specific styles for the ion-header and ion-toolbar
+ion-header {
+    ion-toolbar {
+      background-color: #007bff;
+      color: #cf1010;
+      text-align: center;
+  
+      ion-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+  
+      ion-buttons {
+        ion-back-button {
+          color: #cf1010;
+        }
+      }
+    }
+  }
+  
+  // Specific styles for the ion-content and .overcome-anxiety-message
+  ion-content {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .overcome-anxiety-message {
+      padding: 20px;
+  
+      p {
+        margin-bottom: 20px;
+      }
+  
+      h1 {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+  
+      ul {
+        list-style: disc;
+        margin-left: 20px;
+  
+        li {
+          margin-bottom: 10px;
+        }
+      }
+  
+      p:last-child {
+        font-style: italic;
+        color: #777;
+        margin-top: 20px;
+      }
+    }
+  }
+  

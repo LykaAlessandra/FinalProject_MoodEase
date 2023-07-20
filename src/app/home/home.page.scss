@@ -1,0 +1,27 @@
+ion-card {
+    --background: #3a3636;
+    --color: #9efff0;
+  
+  }
+  
+  ion-card-title {
+    --color: #52ffe4;
+      font-size: 40px;
+      font-weight: bold;
+      margin-top:20px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  ion-card-content{
+    font-style: italic;
+    margin-top:20px;
+  }
+  ion-card-content a {
+    color: #52ffe4; 
+    font-weight: bold;
+  }
+  
+  ion-card-content .a{
+    --color: #52ffe4;
+  }
+  

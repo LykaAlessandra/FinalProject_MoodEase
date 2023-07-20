@@ -1,0 +1,28 @@
+ion-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+
+
+    .login-title {
+      margin-bottom: 20px;
+      text-align: center;
+      margin-top: 30%;
+    }
+  
+    .signup-link {
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    ion-button {
+      margin-top: 30px;
+      width: 100%; /* Adjust the width as needed */
+      
+    }
+  }
+  
+

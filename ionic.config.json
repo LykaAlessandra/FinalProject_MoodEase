@@ -1,0 +1,7 @@
+{
+  "name": "Moodease",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

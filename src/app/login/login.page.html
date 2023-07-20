@@ -1,0 +1,27 @@
+<!-- login.page.html -->
+
+<ion-content>
+  <h2 class="login-title">LOG IN</h2>
+  <ion-list>
+    <ion-item>
+      <ion-label position="floating">Username</ion-label>
+      <ion-item>
+        <ion-input label="Username " type="username" ></ion-input>
+      </ion-item>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Password</ion-label>
+      <ion-item>
+        <ion-input label="Password " type="password" ></ion-input>
+      </ion-item>
+    </ion-item>
+  </ion-list>
+
+
+  <ion-button expand="half"  routerLink="/tabs/home">Login</ion-button>
+
+  <div class="signup-link">
+    Don't have an account? <a routerLink="/signup">Sign Up</a>
+  </div>
+</ion-content>

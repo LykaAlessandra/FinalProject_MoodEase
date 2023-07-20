@@ -1,0 +1,52 @@
+// styles.scss
+
+// Define variables for colors
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$background-color: #f8f9fa;
+
+// Mixin for background design
+@mixin background-design {
+  background-color: $background-color;
+  background-image: linear-gradient(to bottom, $primary-color, $secondary-color);
+}
+
+// Apply background design to ion-content
+ion-content {
+  @include background-design;
+
+  // Add the scroll attribute
+  &[scroll="y"] {
+    overflow-y: scroll;
+  }
+
+  ion-card {
+    .hotline-title {
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 50px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .Hotline.Numbers {
+      h1 {
+        font-size: 1.4rem;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 10px;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+
+        li {
+          font-size: 1.2rem;
+          margin-bottom: 5px;
+          color: #333; /* Adjust color as needed */
+        }
+      }
+    }
+  }
+}
